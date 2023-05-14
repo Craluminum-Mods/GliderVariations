@@ -1,0 +1,12 @@
+{
+    "type": "code",
+    "side": "universal",
+    "modid": "glidervar",
+    "name": "Glider Variations",
+    "description": "More gliders in addition to the vanilla glider.",
+    "authors": ["Craluminum2413", "Ruddi"],
+    "version": "1.1.1",
+    "dependencies": {
+        "game": "1.18.0"
+    }
+}

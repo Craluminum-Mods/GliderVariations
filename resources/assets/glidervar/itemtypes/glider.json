@@ -1,0 +1,65 @@
+{
+    "code": "glider",
+    "class": "ItemGlider",
+    "maxstacksize": 1,
+    "heldTpIdleAnimation": "holdunderarm",
+    "behaviors": [{ "name": "GliderVanillaName" }],
+    "attributes": {
+        "wearableAttachment": true,
+        "unfoldShapeStep1": { "base": "game:item/bag/glider-transition1" },
+        "unfoldShapeStep2": { "base": "game:item/bag/glider-transition2" },
+        "unfoldedShape": { "base": "game:item/bag/glider-unfolded" },
+        "attachShape": { "base": "game:item/bag/glider-backpack" },
+        // "attachShape": { "base": "game:item/bag/glider-unfolded" },
+        "backpack": {
+            "quantitySlots": 2
+        }
+    },
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": ["black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow"]
+        },
+        {
+            "code": "type",
+            "states": ["bat", "feather1"],
+            "combine": "add"
+        },
+        {
+            "code": "type",
+            "states": ["dragon-black", "dragon-blue", "dragon-brown", "dragon-gray", "dragon-green", "dragon-orange", "dragon-pink", "dragon-purple", "dragon-red", "dragon-white", "dragon-yellow"],
+            "combine": "add"
+        }
+    ],
+    "shape": { "base": "game:item/bag/glider-backpack" },
+    "textures": {
+        "glider": { "base": "item/bag/glider/{type}" },
+        "glider-plain": { "base": "item/bag/glider/{type}" }
+    },
+    "storageFlags": 2,
+    "creativeinventory": { "general": ["*"], "items": ["*"] },
+    "guiTransform": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": -22, "y": -27, "z": -27 },
+        "origin": { "x": 0.5, "y": -0.31, "z": 0.25 },
+        "scale": 1.63
+    },
+    "fpHandTransform": {
+        "translation": { "x": 0, "y": 0.1, "z": 0.2 },
+        "rotation": { "x": -6, "y": 4, "z": 158 },
+        "origin": { "x": 0.5, "y": 0, "z": 0.25 },
+        "scale": 2.88
+    },
+    "tpHandTransform": {
+        "translation": { "x": -0.3, "y": 0.2, "z": -0.1 },
+        "rotation": { "x": -101, "y": -37, "z": 83 },
+        "origin": { "x": 0.5, "y": 0, "z": 0.25 },
+        "scale": 1.07
+    },
+    "groundTransform": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": 180, "y": 33, "z": 91 },
+        "origin": { "x": 0.3, "y": 0, "z": 0.5 },
+        "scale": 4.5
+    }
+}

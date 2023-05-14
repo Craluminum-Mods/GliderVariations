@@ -1,0 +1,14 @@
+{
+    "ingredientPattern": "SSSCPCGLG",
+    "ingredients": {
+        "S": { "type": "item", "code": "game:stick", "quantity": 2 },
+        "C": { "type": "item", "code": "game:cloth-*", "name": "color", "allowedVariants": ["blue", "red", "yellow", "green", "purple", "pink", "orange", "brown", "gray", "black", "white"] },
+        "G": { "type": "item", "code": "game:gear-rusty" },
+        "L": { "type": "item", "code": "game:leather-plain" },
+        "P": { "type": "item", "code": "game:schematic-glider" }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "glider",
+    "output": { "type": "item", "code": "glidervar:glider-{color}" }
+}

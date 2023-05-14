@@ -1,0 +1,15 @@
+{
+    "ingredientPattern": "SSSAPBGLG",
+    "ingredients": {
+        "S": { "type": "item", "code": "game:stick", "quantity": 2 },
+        "A": { "type": "item", "code": "game:cloth-gray" },
+        "B": { "type": "item", "code": "game:cloth-brown" },
+        "G": { "type": "item", "code": "game:gear-rusty" },
+        "L": { "type": "item", "code": "game:leather-plain" },
+        "P": { "type": "item", "code": "game:schematic-glider" }
+    },
+    "width": 3,
+    "height": 3,
+    "name": "glider",
+    "output": { "type": "item", "code": "glidervar:glider-bat" }
+}
